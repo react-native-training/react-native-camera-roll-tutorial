@@ -1,6 +1,6 @@
 # Mastering the Camera Roll in React Native
 
-[React Native Training](Mastering the Camera Roll in React Native)
+[React Native Training](http://reactnative.training/)
 
 This repo goes along with the medium tutorial [Mastering the Camera Roll in React Native](https://medium.com/@dabit3/mastering-the-camera-roll-in-react-native-13b3b1963a2d)
 
