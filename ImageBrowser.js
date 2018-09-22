@@ -55,12 +55,12 @@ class ImageBrowser extends React.Component {
       .fetch('GET', image.urls.small)
       .then((res) => {
         CameraRoll.saveToCameraRoll(res.path())
-          .then(Alert.alert('Success', 'Photo added to camera roll!'))
+          .then(() => Alert.alert('Success', 'Photo added to camera roll!'))
           .catch(err => console.log('err:', err))
       })
     } else {
       CameraRoll.saveToCameraRoll(image.urls.small)
-        .then(Alert.alert('Success', 'Photo added to camera roll!'))
+        .then(() => Alert.alert('Success', 'Photo added to camera roll!'))
     }
   }
 
